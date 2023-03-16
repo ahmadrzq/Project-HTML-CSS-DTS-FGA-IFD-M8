@@ -1,5 +1,5 @@
 @media all and (max-width: 565px) {
-    /* Header */
+  /* Header */
   .header-left a {
     float: none;
     display: block;
@@ -81,6 +81,9 @@
 }
 
 @media all and (max-width: 767px) {
+  .about {
+    padding: 120px 40px !important;
+  }
   .contact-container {
     padding: 20px 40px !important;
     width: 100% !important;
