@@ -11,17 +11,16 @@ header {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #2e4f4f;
+  background-color: #143f6b;
   padding: 10px 10px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  opacity: 0.9;
   z-index: 9999999;
 }
 
 .header-left a {
   float: left;
-  color: #cbe4de;
+  color: #feb139;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -37,8 +36,8 @@ header {
 }
 
 .header-right a:hover {
-  background-color: #cbe4de;
-  color: #0e8388;
+  background-color: #feb139;
+  color: #143f6b;
 }
 
 .header-right {
@@ -68,9 +67,12 @@ header {
   text-align: center;
 }
 .top-wrapper h1 {
-  color: white;
-  opacity: 0.9;
+  background: #143f6b;
+  background: linear-gradient(to right, #396897 2%, #f55353 71%, #feb139 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 45px;
+  font-weight: 800;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
@@ -80,11 +82,13 @@ header {
   margin: 20px 0;
   color: white;
   font-size: 17px;
+  font-weight: 800;
 }
 .top-wrapper h2 {
   opacity: 0.8;
   margin-bottom: 3px;
   color: white;
+  font-weight: 800;
   font-size: 25px;
 }
 .btn-wrapper {
@@ -94,7 +98,7 @@ header {
   color: white;
 }
 .explore {
-  background-color: #2e4f4f;
+  background-color: #feb139;
 }
 .btn {
   padding: 10px 10px;
@@ -103,6 +107,7 @@ header {
   opacity: 0.8;
   border-radius: 4px;
   transition: 0.5s ease 0s;
+  font-weight: 800;
 }
 .btn:hover {
   opacity: 1;
@@ -113,25 +118,25 @@ header {
 /*---------------------------------------------------- About Start---------------------------------------------------------- */
 .about {
   color: white;
-  padding: 120px 80px;
+  padding: 100px 80px;
   text-align: center;
-  background: rgb(44, 51, 51);
+  background: rgb(20, 63, 107);
   background: linear-gradient(
     90deg,
-    rgba(44, 51, 51, 1) 0%,
-    rgba(49, 83, 83, 1) 76%,
-    rgba(24, 125, 125, 1) 100%
+    rgba(20, 63, 107, 1) 7%,
+    rgba(245, 83, 83, 1) 71%,
+    rgba(254, 177, 57, 1) 100%
   );
 }
 
-.about h1{
-    margin-bottom: 20px;
+.about h1 {
+  margin-bottom: 20px;
 }
 /*---------------------------------------------------- About End---------------------------------------------------------- */
 
 /*---------------------------------------------------- Class Start---------------------------------------------------------- */
 .kelas {
-  padding: 100px 0 50px;
+  padding: 80px 0 50px;
 }
 .judul {
   text-align: center;
@@ -169,7 +174,7 @@ header {
 .card-content a {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #2e4f4f;
+  background-color: #feb139;
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
@@ -178,12 +183,12 @@ header {
 
 /*---------------------------------------------------- Form Start ---------------------------------------------------------- */
 .contact {
-  background: rgb(44, 51, 51);
+  background: rgb(20, 63, 107);
   background: linear-gradient(
     90deg,
-    rgba(44, 51, 51, 1) 0%,
-    rgba(49, 83, 83, 1) 76%,
-    rgba(24, 125, 125, 1) 100%
+    rgba(20, 63, 107, 1) 7%,
+    rgba(245, 83, 83, 1) 71%,
+    rgba(254, 177, 57, 1) 100%
   );
   height: 100%;
   display: flex;
@@ -202,7 +207,7 @@ header {
 }
 
 .title h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .title p {
@@ -261,10 +266,10 @@ header {
 
 .form-submit button {
   padding: 10px;
-  background-color: #cbe4de;
   border: none;
   border-radius: 5px;
-  color: #2c3333;
+  background-color: #143f6b;
+  color: white;
   cursor: pointer;
   font-size: 20px;
   font-weight: 800;
@@ -272,7 +277,8 @@ header {
 }
 
 .form-submit button:hover {
-  background: white;
+  color: #143f6b;
+  background-color: white;
 }
 
 .address {
@@ -284,7 +290,7 @@ header {
   font-size: 20px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 3px solid #cbe4de;
+  border-bottom: 3px solid #143f6b;
 }
 
 .address p {
@@ -298,7 +304,7 @@ header {
 .icon svg {
   transition: 0.2s;
   width: 5%;
-  fill: #cbe4de;
+  fill: #143f6b;
 }
 
 .icon svg:hover {
@@ -308,7 +314,7 @@ header {
 
 /*---------------------------------------------------- Footer Start ---------------------------------------------------------- */
 footer {
-  background-color: #2e4f4f;
+  background-color: #143f6b;
   padding: 15px 10px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -319,8 +325,9 @@ footer {
   justify-content: space-between;
 }
 
-.footer-left p, .footer-right p {
-  color: #cbe4de;
+.footer-left p,
+.footer-right p {
+  color: #feb139;
   font-size: 18px;
   margin: 0 10px;
 }
