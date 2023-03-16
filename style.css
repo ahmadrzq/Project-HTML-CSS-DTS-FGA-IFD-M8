@@ -48,6 +48,7 @@ header {
 
 .bar {
   display: none;
+  margin-top: 6px;
 }
 
 .bar svg {
@@ -106,6 +107,8 @@ header {
 .btn:hover {
   opacity: 1;
   transform: translate(-10px);
+  background-color: #143f6b;
+  color: #feb139;
 }
 /*---------------------------------------------------- Main End---------------------------------------------------------- */
 
@@ -254,8 +257,9 @@ header {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  color: #feb139;
-  background-color: #143f6b;
+  color: white;
+  background-color: #feb139;
+  border: 2px solid #143f6b;
   cursor: pointer;
   font-size: 20px;
   font-weight: 800;
@@ -263,9 +267,9 @@ header {
 }
 
 .form-submit button:hover {
-  background-color: #feb139;
-  color: #143f6b;
-  border: 1px solid #143f6b;
+  background-color: #143f6b;
+  color: #feb139;
+  border: 2px solid #143f6b;
 }
 
 .address {
