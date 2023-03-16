@@ -11,23 +11,24 @@ header {
   top: 0;
   position: fixed;
   width: 100%;
+  padding: 0 30px;
   background-color: #143f6b;
-  padding: 10px 10px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   z-index: 9999999;
+  display: flex;
+  justify-content: space-between;
 }
 
+.header-right a,
 .header-left a {
-  float: left;
+  display: inline-block;
   color: white;
-  text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
   font-weight: 800;
-  line-height: 25px;
-  border-radius: 4px;
+  height: 100%;
 }
 
 .header-left a.logo {
@@ -42,14 +43,10 @@ header {
 }
 
 .header-right {
-  float: right;
-  margin-top: 6px;
   font-size: 20px;
 }
 
 .bar {
-  margin-top: 6px;
-  float: right;
   display: none;
 }
 
@@ -68,7 +65,7 @@ header {
   text-align: center;
 }
 .top-wrapper h1 {
-    color: #feb139;
+  color: #feb139;
   font-size: 45px;
   font-weight: 800;
   letter-spacing: 5px;
@@ -124,8 +121,8 @@ header {
   margin-bottom: 20px;
 }
 
-.about p{
-    font-weight: 800;
+.about p {
+  font-weight: 800;
 }
 /*---------------------------------------------------- About End---------------------------------------------------------- */
 
@@ -285,7 +282,7 @@ header {
 }
 
 .address p {
-    font-weight: 800;
+  font-weight: 800;
   margin-bottom: 20px;
 }
 
