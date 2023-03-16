@@ -20,11 +20,12 @@ header {
 
 .header-left a {
   float: left;
-  color: #feb139;
+  color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
+  font-weight: 800;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -67,10 +68,7 @@ header {
   text-align: center;
 }
 .top-wrapper h1 {
-  background: #143f6b;
-  background: linear-gradient(to right, #396897 2%, #f55353 71%, #feb139 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: #feb139;
   font-size: 45px;
   font-weight: 800;
   letter-spacing: 5px;
@@ -104,7 +102,6 @@ header {
   padding: 10px 10px;
   color: white;
   display: inline-block;
-  opacity: 0.8;
   border-radius: 4px;
   transition: 0.5s ease 0s;
   font-weight: 800;
@@ -117,16 +114,10 @@ header {
 
 /*---------------------------------------------------- About Start---------------------------------------------------------- */
 .about {
-  color: white;
+  color: #143f6b;
   padding: 100px 80px;
   text-align: center;
-  background: rgb(20, 63, 107);
-  background: linear-gradient(
-    90deg,
-    rgba(20, 63, 107, 1) 7%,
-    rgba(245, 83, 83, 1) 71%,
-    rgba(254, 177, 57, 1) 100%
-  );
+  background: #feb139;
 }
 
 .about h1 {
@@ -183,18 +174,12 @@ header {
 
 /*---------------------------------------------------- Form Start ---------------------------------------------------------- */
 .contact {
-  background: rgb(20, 63, 107);
-  background: linear-gradient(
-    90deg,
-    rgba(20, 63, 107, 1) 7%,
-    rgba(245, 83, 83, 1) 71%,
-    rgba(254, 177, 57, 1) 100%
-  );
+  background: #feb139;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #143f6b;
 }
 
 .contact-container {
@@ -211,7 +196,7 @@ header {
 }
 
 .title p {
-  color: #cbe4de;
+  color: #143f6b;
   font-weight: 800;
 }
 
@@ -268,8 +253,8 @@ header {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  color: #feb139;
   background-color: #143f6b;
-  color: white;
   cursor: pointer;
   font-size: 20px;
   font-weight: 800;
@@ -277,8 +262,9 @@ header {
 }
 
 .form-submit button:hover {
+  background-color: #feb139;
   color: #143f6b;
-  background-color: white;
+  border: 1px solid #143f6b;
 }
 
 .address {
@@ -288,12 +274,14 @@ header {
 .address h3 {
   display: inline-block;
   font-size: 20px;
+  font-weight: 800;
   margin-bottom: 10px;
   padding-bottom: 5px;
   border-bottom: 3px solid #143f6b;
 }
 
 .address p {
+    font-weight: 800;
   margin-bottom: 20px;
 }
 
@@ -327,8 +315,9 @@ footer {
 
 .footer-left p,
 .footer-right p {
-  color: #feb139;
+  color: white;
   font-size: 18px;
+  font-weight: 800;
   margin: 0 10px;
 }
 /*---------------------------------------------------- Footer End ---------------------------------------------------------- */
