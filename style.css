@@ -91,10 +91,10 @@ header {
   margin: 20px 0;
 }
 .btn-wrapper a {
-  color: rgb(4, 7, 10);
+  color: white;
 }
 .explore {
-  background-color: rgb(122, 122, 207);
+  background-color: #2e4f4f;
 }
 .btn {
   padding: 10px 10px;
@@ -150,7 +150,7 @@ header {
 .card-content a {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #2196f3;
+  background-color: #2e4f4f;
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
@@ -159,12 +159,12 @@ header {
 
 /*---------------------------------------------------- Form Start ---------------------------------------------------------- */
 .contact {
-  background: rgb(98, 90, 230);
+  background: rgb(44, 51, 51);
   background: linear-gradient(
     90deg,
-    rgba(98, 90, 230, 1) 0%,
-    rgba(94, 190, 201, 1) 76%,
-    rgba(19, 194, 230, 1) 100%
+    rgba(44, 51, 51, 1) 0%,
+    rgba(49, 83, 83, 1) 76%,
+    rgba(24, 125, 125, 1) 100%
   );
   height: 100%;
   display: flex;
@@ -187,7 +187,7 @@ header {
 }
 
 .title p {
-  color: #3a1078;
+  color: #CBE4DE;
   font-weight: 800;
 }
 
@@ -242,10 +242,10 @@ header {
 
 .form-submit button {
   padding: 10px;
-  background-color: #3a1078;
+  background-color: #CBE4DE;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #2c3333;
   cursor: pointer;
   font-size: 20px;
   font-weight: 800;
@@ -253,7 +253,7 @@ header {
 }
 
 .form-submit button:hover {
-  background: #457b9d;
+  background: white;
 }
 
 .address {
@@ -265,7 +265,7 @@ header {
   font-size: 20px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 3px solid #3a1078;
+  border-bottom: 3px solid #CBE4DE;
 }
 
 .address p {
@@ -279,7 +279,7 @@ header {
 .icon svg {
   transition: 0.2s;
   width: 5%;
-  fill: white;
+  fill: #CBE4DE;
 }
 
 .icon svg:hover {

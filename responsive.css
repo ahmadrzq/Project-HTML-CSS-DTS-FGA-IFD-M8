@@ -1,5 +1,5 @@
-/* Header */
 @media all and (max-width: 565px) {
+    /* Header */
   .header-left a {
     float: none;
     display: block;
