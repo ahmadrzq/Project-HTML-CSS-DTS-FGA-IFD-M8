@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+/*---------------------------------------------------- Header Start---------------------------------------------------------- */
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #2e4f4f;
+  padding: 20px 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  opacity: 0.9;
+  z-index: 9999999;
+}
+
+.header-left a {
+  float: left;
+  color: #cbe4de;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-left a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.header-right a:hover {
+  background-color: #cbe4de;
+  color: #0e8388;
+}
+
+.header-right {
+  float: right;
+  margin-top: 6px;
+  font-size: 20px;
+}
+
+.bar {
+  margin-top: 6px;
+  float: right;
+  display: none;
+}
+
+.bar svg {
+  fill: white;
+  width: 30px;
+  height: auto;
+}
+/*---------------------------------------------------- Header End---------------------------------------------------------- */
+
+/*---------------------------------------------------- Main Start---------------------------------------------------------- */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://raw.githubusercontent.com/endang99/endangprogate.github.io/main/background.jpg);
+  background-size: cover;
+  text-align: center;
+}
+.top-wrapper h1 {
+  color: white;
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin: 20px 0;
+  color: white;
+  font-size: 17px;
+}
+.top-wrapper h2 {
+  opacity: 0.8;
+  margin-bottom: 3px;
+  color: white;
+  font-size: 25px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn-wrapper a {
+  color: rgb(4, 7, 10);
+}
+.explore {
+  background-color: rgb(122, 122, 207);
+}
+.btn {
+  padding: 10px 10px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  transition: 0.5s ease 0s;
+}
+.btn:hover {
+  opacity: 1;
+  transform: translate(-10px);
+}
+/*---------------------------------------------------- Main End---------------------------------------------------------- */
+
+/*---------------------------------------------------- Class Start---------------------------------------------------------- */
+.kelas {
+  margin: 40px 0;
+}
+.judul {
+  text-align: center;
+  margin-top: 32px;
+}
+.list-kelas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 16px;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.card-content {
+  padding: 16px;
+}
+.card-content h3 {
+  margin-top: 0;
+}
+.card-content p {
+  margin-bottom: 16px;
+}
+
+.card-content a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #2196f3;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+/*---------------------------------------------------- Class End ---------------------------------------------------------- */
+
+/*---------------------------------------------------- Form Start ---------------------------------------------------------- */
+.contact {
+  background: rgb(98, 90, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(98, 90, 230, 1) 0%,
+    rgba(94, 190, 201, 1) 76%,
+    rgba(19, 194, 230, 1) 100%
+  );
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact-container {
+  padding: 50px 100px 100px;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-size: 60px;
+}
+
+.title p {
+  color: #3a1078;
+  font-weight: 800;
+}
+
+.contact-item {
+  display: flex;
+}
+
+.contact-left {
+  padding-right: 70px;
+}
+
+.contact-left,
+.contact-right {
+  width: 50%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+.form-submit button {
+  padding: 10px;
+  background-color: #3a1078;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  transition: all 0.5s;
+}
+
+.form-submit button:hover {
+  background: #457b9d;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.address h3 {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #3a1078;
+}
+
+.address p {
+  margin-bottom: 20px;
+}
+
+.icon a {
+  padding-right: 10px;
+}
+
+.icon svg {
+  transition: 0.2s;
+  width: 5%;
+  fill: white;
+}
+
+.icon svg:hover {
+  transform: scale(1.3);
+}
+/*---------------------------------------------------- Form End ---------------------------------------------------------- */
+
+/*---------------------------------------------------- Footer Start ---------------------------------------------------------- */
+footer {
+  background-color: #2e4f4f;
+  padding: 15px 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer-left p {
+  float: left;
+  color: #cbe4de;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.footer-right {
+  float: right;
+}
+/*---------------------------------------------------- Footer End ---------------------------------------------------------- */

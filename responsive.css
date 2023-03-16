@@ -1,0 +1,117 @@
+/* Header */
+@media all and (max-width: 565px) {
+  .header-left a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .bar {
+    display: block !important;
+  }
+
+  .header-right {
+    float: none;
+    display: none;
+  }
+
+  .footer-left p {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-right {
+    float: none;
+  }
+}
+
+/* Main */
+@media all and (max-width: 476px) {
+  .top-wrapper h1 {
+    font-size: 20px;
+  }
+  .top-wrapper h2 {
+    font-size: 18px;
+  }
+  .top-wrapper p {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 30px;
+  }
+  .top-wrapper h2 {
+    font-size: 20px;
+  }
+  .top-wrapper p {
+    font-size: 17px;
+  }
+}
+/* Main */
+
+/* Class */
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 16px 0;
+  }
+}
+/* Class */
+
+/* Form */
+@media all and (max-width: 1023px) {
+  .contact-item {
+    flex-direction: column;
+  }
+  .contact-left,
+  .contact-right {
+    width: 100% !important;
+  }
+
+  .contact-left {
+    margin-bottom: 40px !important;
+    padding-right: 0 !important;
+  }
+
+  .address {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .contact-container {
+    padding: 20px 40px !important;
+    width: 100% !important;
+    margin-bottom: 60px;
+  }
+
+  .title h1 {
+    font-size: 40px !important;
+  }
+
+  .title p {
+    font-size: 16px !important;
+  }
+
+  .form-group label {
+    font-size: 16px !important;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px 10px !important;
+    font-size: 16px !important;
+  }
+
+  .form-submit button {
+    padding: 10px !important;
+    font-size: 16px !important;
+  }
+
+  .icon svg {
+    width: 10% !important;
+  }
+}
+/* Form */
